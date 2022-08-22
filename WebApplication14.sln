@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication14", "WebApplication14\WebApplication14.csproj", "{F12C7245-383B-403B-9130-4E8309870024}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{01EED027-ABE7-4128-9194-5EDDAD9DCDCE}"
+	ProjectSection(SolutionItems) = preProject
+		ProductEntity.cs = ProductEntity.cs
+		Produkt.cs = Produkt.cs
+		skapa.cs = skapa.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{ED8A8B1B-99A6-4E3D-8657-6E019953BF20}"
+	ProjectSection(SolutionItems) = preProject
+		servicetest.cs = servicetest.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12C7245-383B-403B-9130-4E8309870024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12C7245-383B-403B-9130-4E8309870024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12C7245-383B-403B-9130-4E8309870024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12C7245-383B-403B-9130-4E8309870024}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F884529C-6A34-4F0F-88CC-7A00ECA4A482}
+	EndGlobalSection
+EndGlobal
